@@ -1,0 +1,70 @@
+<nav class="fixed bg-brand-secondary w-full shadow top-0 z-auto">
+    <div class="container m-auto text-brand">
+        <div class="bg-brand-secondary w-full z-50">
+            <div class="flex justify-between">
+                <!-- logo icon  -->
+                <a href="/" class="flex space-x-1 h-full">
+                    <img src="\logoyct.png " class="pl-8 py-4 h-20 inline" alt="yct logo" />
+
+                    <span class=" py-4 text-xl font-bold font-[Poppins] justify-center"><span class="">Hostel </span><br> Security System</span>
+                </a>
+                <div class="hidden md:flex pl-8 py-8 font-semibold uppercase cursor-pointer">
+                    <ul class="flex space-x-4">
+
+                        <li>
+                            <a class="hover:text-brand-primary">about</a>
+                        </li>
+                        <li><a class="hover:text-brand-primary" id="statMenu">Status</a></li>
+
+
+                    </ul>
+                </div>
+
+                <button id="btn" class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none group ">
+                  
+                  <div class="-rotate-180">
+                    <div id='_1' class=" h-1 w-3 bg-brand-primary mb-1 rounded-full"></div>
+                  <div id='_2' class=" h-1 w-5 bg-brand-primary mb-1 rounded-full "></div>
+                  <div class="_2 h-1 w-8 bg-brand-primary rounded-full "></div>
+                  </div>
+                  
+                
+      <div
+        id="menu"
+        class="hidden md:hidden absolute -right-0 h-screen bg-brand-secondary w-8/12 pt-4 -z-10 transition-all ease-in duration-1000 group-focus:opacity-100 group-focus:rght-100 group"
+      >
+        <ul
+          class="w-full container py-4 my-8 uppercase text-base group-focus:opacity-400 group-focus:right-100 font-[Poppins] text-brand flex flex-col cursor-pointer transition-all ease-in duration-1000"
+        >
+          <li class="hover:bg-brand-primary px-2 pt-4">
+            <a href="">Home</a>
+          </li>
+          <li class="hover:bg-brand-primary px-4 pt-4">
+            <a href="">about</a>
+          </li>
+          <li class="hover:bg-brand-primary px-4 pt-4">
+           <a class="hover:text-brand-primary" id="statMenu">Status</a>
+          </li>
+
+          <div class= " menu-form pt-10">
+            <li class="   px-4 pt-4">
+              <a class='bg-transparent border-2 border-brand-primary rounded-md px-6  hover:translate-x-5 py-4' id='mlogin'>VERIFY</a>
+            </li>
+          </div>
+         
+        </ul>
+      </div>
+    </div>
+  </button>
+            </div>
+        </div>
+</nav>
+
+<script>
+    const mobileBtn = document.getElementById("btn");
+    const mobileMenu = document.getElementById("menu");
+    const svg = document.getElementById("Capa_1");
+    mobileBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+</script>
