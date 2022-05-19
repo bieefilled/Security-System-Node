@@ -95,11 +95,15 @@ Security authentication is a very broad assessment which has the tendency to be 
 -Also to Mr Michael Peters for encouragement, advices and Prayers.
 Finally, special thank my friends for their encouragement, unwavering support.
 
-## Got feedback for me?
+## Get started?
+-install dependencies
+-add your Google auth Credentials in the servicekEY
 
+## Got feedback for me?
 i'll love receiving feedback! i'm always looking to improve on challenges. So if you have anything you'd like to mention, please email hi petsamuel[at]gmail[dot]com.
 
 This project is completely free. Please share it with anyone who will find it useful for practice.
+
 
 **Have fun building!** 🚀
 
